@@ -6,6 +6,7 @@ body{
     border-color: #ffffff;
     color: #ffffff;
 }
+
 h1{
     color: #000000;
 }
@@ -29,3 +30,24 @@ h1{
     height: 120px; /* Aumente o valor para ajustar o tamanho do rodapé */
 }
 
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration:none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.rodape {
+    align-items: center;
+    justify-content: center;
+}
